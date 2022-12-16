@@ -1,0 +1,30 @@
+{
+  "04fe6e31-8ff5-4b88-b86c-6369d695367b": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://yd60m.sharepoint.com/sites/PPSite": {
+        "dataSources": {
+          "Employee": {
+            "tableName": "0fe5f2e7-4ca2-4cbe-9319-a2c5c99d8372"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "04fe6e31-8ff5-4b88-b86c-6369d695367b"
+  }
+}
